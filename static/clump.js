@@ -34,8 +34,8 @@ function makeD3() {
       .data(nodes.slice(1))
     .enter().append("circle")
       .attr("r", function(d) { return d.radius; })
-      // .style("fill", "#8c8c8c");
-      .style("fill", "rgb(90,90,90)");
+      // .style("fill", "rgb(90,90,90)")
+      ;
 
   // Move nodes 
   force.on("tick", function(e) {
