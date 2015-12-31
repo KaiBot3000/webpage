@@ -6,7 +6,6 @@ body {
   background-attachment: fixed;
   background-position: right bottom;
   background-size: auto 100%;
-  font-size: 5em;
 }
 
 /*div {
@@ -16,12 +15,20 @@ body {
 }*/
 
 text {   
-    color: green;
+    color: gray;
 }
 
-/*#headshot {
-    width: 10%;
-}*/
+#title {
+    font-size: 5em;
+}
+
+p {
+    font-size: 3em;
+}
+
+#btn-div {
+
+}
 
 /*svg {
     z-index: -5;
