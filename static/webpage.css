@@ -1,29 +1,33 @@
 body {
-  background-color: rgb(75,75,75);
+  /*background-color: rgb(75,75,75);*/
   background-color: white;
-  /*background-origin: */
+  background-image: url("/static/images/kaitransparent.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: auto 100%;
   font-size: 5em;
 }
 
-div {
+/*div {
     font-size: 5em;
     position: fixed;
     z-index: 20;
-}
+}*/
 
 text {   
     color: green;
 }
 
-#headshot {
+/*#headshot {
     width: 10%;
-}
+}*/
 
-svg {
+/*svg {
     z-index: -5;
     position: absolute;
 }
 
 circle {
     fill: gray;
-}
+}*/
