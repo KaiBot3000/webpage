@@ -8,7 +8,13 @@ app.secret_key = 'forage_the_things'
 @app.route('/')
 def index():			                                              
 	
-	return render_template('clump.html')
+	return render_template('home.html')
+    
+
+@app.route('/clump')
+def clump():                                                          
+    
+    return render_template('clump.html')
 
 
 if __name__ == "__main__":
