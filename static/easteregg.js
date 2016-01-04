@@ -14,8 +14,8 @@ var name = "%ckkkkkkkk                             iiii" +
     "\n k::::::k  k:::::ka:::::aaaa::::::a i::::::i" + 
     "\n k::::::k   k:::::ka::::::::::aa:::ai::::::i" + 
     "\n kkkkkkkk    kkkkkkkaaaaaaaaaa  aaaaiiiiiiii";
-var message = "I'm looking for a job!" +
-    "\n\nVisit me on github at https://github.com/KaiDalgleish";
+var message = "\nI'm looking for a job!" +
+    "\nVisit me on github at https://github.com/KaiDalgleish";
 
 console.log(name, 'background: white; color: green');
 console.log(message);
