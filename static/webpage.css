@@ -15,7 +15,7 @@ a {
 }
 
 a:active, a:focus, a:hover {
-    color: rgb(17, 159, 47);
+    color: #29c318;
     text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ a:active, a:focus, a:hover {
 
 #summary-div {
     font-size: 3em;
-    margin: 10% 0 10% 0;
+    margin: 5% 0 10% 0;
 }
 
 #btn-div {
