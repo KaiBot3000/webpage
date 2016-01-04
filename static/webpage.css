@@ -27,8 +27,22 @@ text {
     margin: 10% 0 10% 0;
 }
 
-#btn-div img {
-    width: 100%;
+.btn {
+    margin-bottom: 10px;
+    height:160px;
+    display:block;
+}
+
+#github {
+    background:transparent url("images/btn-github.png") center top no-repeat;
+}
+
+#linkedin {
+    background:transparent url("images/btn-linkedin.png") center top no-repeat;
+}
+
+#twitter {
+    background:transparent url("images/btn-twitter.png") center top no-repeat;
 }
 
 /*svg {
