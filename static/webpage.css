@@ -27,41 +27,66 @@ text {
     margin: 10% 0 10% 0;
 }
 
+#btn-div {
+    max-width: 50%;
+}
+
 .btn {
     margin-bottom: 10px;
-    /*height:160px;*/
-    display:block;
-    background-size: cover;
-    /*width: 50px;*/
+    height: 160px;
+    display: block;
+    /*background-size: contain;*/
+}
+
+#resume {
+    background:transparent url("images/btn-resume.png") no-repeat;
+    background-size: contain;
+}
+
+#resume:hover {
+    background:transparent url("images/btn-resume-hover.png") no-repeat;
+    background-size: contain;
 }
 
 #github {
-    display: block;
-    width: 100%;
-    height: 160px;
-    background:transparent url("images/btn-github.png") left top no-repeat;
+    background:transparent url("images/btn-github.png") no-repeat;
+    background-size: contain;
 }
 
 #github:hover {
-    /*background-position: -400px 0px;*/
-    background:transparent url("images/btn-github-hover.png") left top no-repeat;
+    background:transparent url("images/btn-github-hover.png") no-repeat;
+    background-size: contain;
 }
 
-/*#linkedin {
-    background:transparent url("images/btn-linkedin.png") left top no-repeat;
-}*/
+#linkedin {
+    background:transparent url("images/btn-linkedin.png") no-repeat;
+    background-size: contain;
+}
 
-/*#twitter {
-    background:transparent url("images/btn-twitter.png") left top no-repeat;
-}*/
+#linkedin:hover {
+    background:transparent url("images/btn-linkedin-hover.png") no-repeat;
+    background-size: contain;
+}
 
-.btntwit {
+#twitter {
+    background:transparent url("images/btn-twitter.png") no-repeat;
+    background-size: contain;
+}
+
+#twitter:hover {
+    background:transparent url("images/btn-twitter-hover.png") no-repeat;
+    background-size: contain;
+}
+
+
+
+/*.btntwit {
     position: absolute;
     top: 0;
     left: 0;
     right: 400px;
     /*width: 400px;*/
-}
+}*/
 
 
 /*svg {
