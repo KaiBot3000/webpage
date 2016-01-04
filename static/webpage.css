@@ -9,12 +9,12 @@ body {
   background-size: auto 100%;
 }
 
-a {
-    color: gray;
+a, a:focus {
+    color: #666666;
     text-decoration: none;
 }
 
-a:active, a:focus, a:hover {
+a:active, a:hover {
     color: #29c318;
     text-decoration: none;
 }
@@ -78,19 +78,3 @@ a:active, a:focus, a:hover {
     background:transparent url("images/btn-twitter-hover.png") no-repeat;
     background-size: contain;
 }
-
-/* For when clump is running */
-/*div {
-    font-size: 5em;
-    position: fixed;
-    z-index: 20;
-}*/
-
-/*svg {
-    z-index: -5;
-    position: absolute;
-}
-
-circle {
-    fill: gray;
-}*/

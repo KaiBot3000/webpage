@@ -1,0 +1,15 @@
+/* For when clump with other elements on page */
+/*div {
+    font-size: 5em;
+    position: fixed;
+    z-index: 20;
+}*/
+
+/*svg {
+    z-index: -5;
+    position: absolute;
+}*/
+
+circle {
+    fill: #29c318;
+}
