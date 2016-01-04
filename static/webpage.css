@@ -18,16 +18,17 @@ text {
     color: gray;
 }
 
-#title {
+#title-div {
     font-size: 5em;
 }
 
-p {
+#summary-div {
     font-size: 3em;
+    margin: 10% 0 10% 0;
 }
 
-#btn-div {
-
+#btn-div img {
+    width: 100%;
 }
 
 /*svg {
