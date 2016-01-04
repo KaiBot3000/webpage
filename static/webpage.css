@@ -29,10 +29,10 @@ text {
 
 .btn {
     margin-bottom: 10px;
-    height:160px;
+    /*height:160px;*/
     display:block;
-    background-size: contain;
-    width: 100%;
+    background-size: cover;
+    /*width: 50px;*/
 }
 
 #github {
@@ -43,13 +43,22 @@ text {
     background-position: -400px 0px
 }
 
-#linkedin {
-    background:transparent url("images/btn-linkedin.png") center top no-repeat;
+/*#linkedin {
+    background:transparent url("images/btn-linkedin.png") left top no-repeat;
+}*/
+
+/*#twitter {
+    background:transparent url("images/btn-twitter.png") left top no-repeat;
+}*/
+
+.btntwit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 400px;
+    /*width: 400px;*/
 }
 
-#twitter {
-    background:transparent url("images/btn-twitter.png") center top no-repeat;
-}
 
 /*svg {
     z-index: -5;
