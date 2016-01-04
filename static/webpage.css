@@ -2,7 +2,7 @@ body {
   /*background-color: rgb(75,75,75);*/
   background-color: white;
   color: gray;
-  background-image: url("/images/kaitransparent.png");
+  background-image: url("/static/images/kaitransparent.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right bottom;
