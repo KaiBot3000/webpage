@@ -1,6 +1,7 @@
 body {
   /*background-color: rgb(75,75,75);*/
   background-color: white;
+  color: gray;
   background-image: url("/static/images/kaitransparent.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,14 +9,14 @@ body {
   background-size: auto 100%;
 }
 
-/*div {
-    font-size: 5em;
-    position: fixed;
-    z-index: 20;
-}*/
-
-text {   
+a {
     color: gray;
+    text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+    color: rgb(17, 159, 47);
+    text-decoration: none;
 }
 
 #title-div {
@@ -33,11 +34,11 @@ text {
 
 .btn {
     margin-bottom: 10px;
-    height: 160px;
+    height: 100px;
     display: block;
-    /*background-size: contain;*/
 }
 
+/* TODO: DRY btns, hover changes using js */
 #resume {
     background:transparent url("images/btn-resume.png") no-repeat;
     background-size: contain;
@@ -78,16 +79,12 @@ text {
     background-size: contain;
 }
 
-
-
-/*.btntwit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 400px;
-    /*width: 400px;*/
+/* For when clump is running */
+/*div {
+    font-size: 5em;
+    position: fixed;
+    z-index: 20;
 }*/
-
 
 /*svg {
     z-index: -5;
