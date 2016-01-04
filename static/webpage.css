@@ -31,10 +31,16 @@ text {
     margin-bottom: 10px;
     height:160px;
     display:block;
+    background-size: contain;
+    width: 100%;
 }
 
 #github {
-    background:transparent url("images/btn-github.png") center top no-repeat;
+    background:transparent url("images/btn-github.png") left top no-repeat;
+}
+
+#github:hover {
+    background-position: -400px 0px
 }
 
 #linkedin {
